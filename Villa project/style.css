@@ -1,0 +1,126 @@
+*{
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header{
+    display: inline-block   ;
+    font-family: 'Arial', sans-serif;
+    color: #7d7878;
+}
+.sub-header ul .fa-envelope{
+    color: #ff6a00;
+}
+.sub-header ul .fa-map{
+    color: #ff6a00;
+}
+.sub-header ul .fa-facebook:hover{
+    color: #ff6a00;
+}
+.sub-header ul .fa-instagram:hover{
+    color: #ff6a00;
+}
+.sub-header ul .fa-twitter:hover{
+    color: #ff6a00;
+}
+.sub-header ul .fa-linkedin:hover{
+    color: #ff6a00;
+}
+header{
+    background-color: #ece9e6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.main-heading{
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    color: #121111;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: #121111;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 40px;
+}
+#orangehome{
+    color: #ff6a00;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.head ul li .h-nav{
+    font-weight: bold;
+    font-size: 20px;
+}
+.head ul li .h-nav:hover{
+    color: #ff6a00;
+}
+.head .schedule-btn{
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: #121111;
+    margin-left: auto;
+    padding: 3px;
+    transition: background-color 2s ease 3s;
+}
+.head .schedule-btn .sd-btn{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    border-radius: 50px;
+    color: #ece9e6;
+    background-color: #ff6a00;
+    margin: 0px;
+    padding: 10px;
+}
+.head .schedule-btn .sd-btn .fa-calendar{
+    padding-left: 1;
+   
+}
+.head .schedule-btn:hover{
+    color: rgb(216, 139, 23);
+}
+section .container1{
+    padding: 0px;
+    margin: 10px;
+    
+}
+section .container1 button{
+    background-color: #191918;
+    color: #fbf8f5;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section #special{
+    background-color: #ff6a00;
+    color: #fff;
+}
+section .container1 button:hover{
+    color: #ff6a00;
+}
+section .item-heading{
+   background-color: #ee83da;
+   border-radius: 15px;
+   font-weight: bold;
+   padding: 5px;
+}
+section .c-head{
+    font-weight: bold;
+    color: #ff6a00;
+}
+section .h5{
+    font-weight: bold;
+    color: #121111;
+}
