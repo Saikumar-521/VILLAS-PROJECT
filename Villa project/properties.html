@@ -9,7 +9,7 @@
 
     <title>VILLAS</title>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     
     <div class="d-flex border-bottom me-5 p-1 sub-header">
             <div class="d-flex ">
@@ -36,8 +36,8 @@
    <ul class="d-flex justify-content-center align-items-center gap-3 p-3 list-unstyled nav">
     <li><a href="home.html" id="orangehome">Home</a></li>
     <li><a href="properties.html" target="_parent" class=" active h-nav">Properties</a></li>
-    <li><a href="#" class="h-nav">Property Details</a></li>
-    <li><a href="#" class="h-nav">Contact Us</a></li>
+    <li><a href="proprty_details.html" class="h-nav">Property Details</a></li>
+    <li><a href="contact_us.html" class="h-nav">Contact Us</a></li>
     <li>
         <button class="schedule-btn">
             <div class="sd-btn"><i class="fa-solid fa-calendar "></i></div>
@@ -50,47 +50,51 @@
 </header>
 
 <!-- properties banner section -->
-<div class="container banner">
-    <img src="../Assetes/plot1.jpeg" class="d-block w-100" alt="">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-center"></h1>
-        </div>
-    </div>
+
+<img src="../Assetes/page-heading-bg.jpg" alt="banner" >
+<div class="middle-caption m-5">
+    <span>
+         <p>HOME</p>
+         <p>/PROPERTIES</p>
+    </span> 
+    <h2 class="p-h2">PROPERTIES</h2>     
 </div>
 
 <!-- section for cards -->
 
-<section class="container p-1 m-5">
+<section class="container p-1 m-5 justify-content-center align-items-center">
     <div class="container1 d-flex gap-1 align-items-center">
         <button type="button" id="special">Show All</button>
         <button type="button">Aparment</button>
         <button type="button">Villa House</button>
         <button type="button">Pent House</button>
     </div>
-    <div class="row m-5">
-        <div class="col-3  h-100">
-            <div class="card border border-1">
-                <a href="proprty_details.html"><img src="../Assetes/plot1.jpeg" class="card-img-top border rounded-2 w-100" alt="..."></a>
-                <div class="card-body">
-                    <span class="d-flex justify-content-between align-items-center">
-                        <p class="item-heading">Luxury Villa</p>
-                        <h6 class="c-head">$500,000</h6>
-                    </span>
-                     <h5>18 Old Street Miami, OR 97219</h5>
-                    <p class="card-text">This is a luxury villa with modern amenities and beautiful interiors.</p>
-                             
-                </div>    
-            </div> 
-        </div>  
-        
-        
-        
+    
+<div class="row">
+    <div class="col-4">
+       <div class="card" style="max-width: 350px;">
+    <img src="../Assetes/property-01.jpg" class="card-img-top rounded-top-4" alt="Luxury Villa">
+    <div class="card-body">
+      <div class="d-flex  mb-2">
+        <span class="badge badge-custom bg-dark">Luxury Villa</span>
+        <span class="card-price">$1.180.000</span>
+      </div>
+      <h5 class="card-title fw-bold">54 New Street Florida, OR 27001</h5>
 
+      <div class="row text-muted property-details my-3">
+        <div class="col-6">Bedrooms: <span>6</span></div>
+        <div class="col-6">Bathrooms:<span>5</span></div>
+       
+      </div>
+
+      <div class="d-grid">
+        <button class="btn btn-custom p-2">Schedule a visit</button>
+      </div>
     </div>
+    </div>
+    </div>
+</div>
 </section>
-
-     
 
         <script src="../Assetes/Bootstrap.js"></script>
 </body>
