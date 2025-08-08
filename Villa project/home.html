@@ -10,8 +10,11 @@
     <title>VILLAS</title>
 </head>
 <body style="overflow-x: hidden;">
-    
-    <div class="d-flex border-bottom me-5 p-1 sub-header">
+ <div class="d-flex border-bottom me-5 p-1 sub-header">
+    <div class="container">
+        <div class="row d-none d-md-flex">
+            <div class="col-12 justify-content-center align-items-center">
+                <div class="d-flex me-5 p-1 sub-header">
             <div class="d-flex ">
             <ul class="d-flex justify-content-center align-items-center gap-1 list-unstyled">
                 <i class="fa-solid fa-envelope c-danger"></i>
@@ -22,31 +25,41 @@
         </div>
         <div class="heading d-inline justify-content-between align-items-center  ms-auto gap-3">
             <ul class="p-1">
-                <i class="fa-brands fa-facebook fa-2xl "></i>
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-                <i class="fa-brands fa-twitter fa-2xl"></i>
-                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-brands fa-facebook fa-2xl p-2 "></i>
+                <i class="fa-brands fa-instagram fa-2xl p-2"></i>
+                <i class="fa-brands fa-twitter fa-2xl p-2"></i>
+                <i class="fa-brands fa-linkedin fa-2xl "></i>
             </ul>                   
         </div>
     </div>
+</div>  
+            </div>
+        </div>
+    </div> 
 <header>
-<div class="d-flex justify-content-between align-items-center p-2 head">
-   <nav class="d-flex justify-content-between align-items-center w-100 main-nav">
-     <h2 class="main-heading">VILLA</h2>
-   <ul class="d-flex justify-content-center align-items-center gap-3 p-3 list-unstyled nav">
-    <li><a href="home.html" id="orangehome">Home</a></li>
-    <li><a href="properties.html" target="_parent" class=" active h-nav">Properties</a></li>
-    <li><a href="proprty_details.html" class="h-nav">Property Details</a></li>
-    <li><a href="contact_us.html" class="h-nav">Contact Us</a></li>
-    <li>
-        <button class="schedule-btn">
-            <div class="sd-btn "><i class="fa-solid fa-calendar "></i></div>
-            <b class="me-1">Schedule visit</b>
-        </button>
-    </li>
-   </ul>
-   </nav>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center p-2 head">
+                    <nav class="d-flex justify-content-between align-items-center w-100 main-nav">
+                        <h2 class="main-heading">VILLA</h2>
+                        <ul class="d-flex justify-content-center align-items-center gap-3 p-3 list-unstyled nav">
+                            <li><a href="home.html" id="orangehome">Home</a></li>
+                            <li><a href="properties.html" target="_parent" class=" active h-nav">Properties</a></li>
+                            <li><a href="proprty_details.html" class="h-nav">Property Details</a></li>
+                            <li><a href="contact_us.html" class="h-nav">Contact Us</a></li>
+                            <li>
+                                <button class="schedule-btn">
+                                    <div class="sd-btn "><i class="fa-solid fa-calendar "></i></div>
+                                    <b class="me-1">Schedule visit</b>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 
 <!-- banner section -->
@@ -55,7 +68,7 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../Assetes/banner-01.jpg" class="d-block w-100" alt="...">
+      <img src="../Assetes/banner-01.jpg" class="d-block w-100"  alt="...">
       <div class="top-left-caption">
         <span class="cur-heading">
           <p>Siddipet,</p>
@@ -100,11 +113,11 @@
 
   <!-- section -->
 <section>
-
-  <div class="container mt-5 border border-1 p-2">
+  <div class="f-section">
+    <div class="container">
     <div class="row">
       <div class="col-4">
-        <div class="d-inline-block p-5">
+        <div class="p-1">
           <img src="../Assetes/featured.jpg" alt="featured">
           <div class="f-icon">
             <img src="../Assetes/featured-icon.png"  alt="icon">
@@ -113,83 +126,394 @@
       </div>
       <div class="col-4">
         <div class="sec-heading">
-          <h5 style="font-weight: bold;color: rgb(255, 123, 0);">| FEATURED</h5>
-          <h2>Best Appartment & Beach View</h2>
-          <h5>Bestt Useful Links?</h5>
+          <h6 style="font-weight: bold;color: rgb(255, 123, 0); ">| FEATURED</h6>
+          <h2>Best Appartment & <br> Beach View</h2>
+          <div class="fe-box">
+            <h5>Bestt Useful Links?</h5>
           <h5>How does this work?</h5>
           <h5>Why is Villa agency is the best?</h5>
+          </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="col-caption d-flex flex-column justify-content-center align-items-center"> 
-           <ul class="list-unstyled">
-            <li class="d-block">
-              <img src="../Assetes/info-icon-01.png" alt="info-icon">
+       <div class="col-caption d-flex  border rounded-1"> 
+           <ul class="list-unstyled p-5">
+            <li class="d-flex flex-row p-2 gap-3 border-bottom">
+              <img src="../Assetes/info-icon-01.png" alt="info-icon" class="m-2">
+              <div class="p-1 d-block">
               <h5>250m2</h5>
-              <p>Total flat space</p>
+               <p>Total flat space</p>
+              </div>
             </li>
-            <li>
-              <img src="../Assetes/info-icon-02.png" alt="info-icon">
-              <h5>Contract</h5>
+            <li class="d-flex flex-row p-2 gap-3 border-bottom">
+              <img src="../Assetes/info-icon-02.png" alt="info-icon" class="m-2">
+              <div class="p-1 d-block">
+                <h5>Contract</h5>
               <p>Contract ready</p>
+              </div>
             </li>
-            <li>
-              <img src="../Assetes/info-icon-03.png" alt="info-icon">
-              <h5>Payment</h5>
+            <li class="d-flex flex-row p-2 gap-3 border-bottom">
+              <img src="../Assetes/info-icon-03.png" alt="info-icon" class="m-2">
+             <div class="d-block">
+               <h5>Payment</h5>
               <p>Payment Process</p>
+             </div>
             </li>
-            <li>
-              <img src="../Assetes/info-icon-04.png" alt="info-icon">
-              <h5>Safety</h5>
-              <p>24/7 Under control</p>
+            <li class="d-flex flex-row p-2 gap-3 border-bottom">
+              <img src="../Assetes/info-icon-04.png" alt="info-icon" class="m-2">
+              <div class="d-block">
+                <h5>Safety</h5>
+                <p>24/7 Under control</p>
+              </div>
             </li>
            </ul>
-        </div> 
+        </div>  
       </div>
     </div>
   </div>
 
+</div>
+
   <!-- contact page -->
-   <div>
-    <img src="../Assetes/contact-bg.jpg" alt="">
+<img src="../Assetes/contact-bg.jpg" style="width: 100%;" alt="">   
+<div class="container" style="margin-top: -300px;">
+  <div class="row">
+    <div class="col-12">
+      
     <div class="contact-info">
       <h6> | VIDEO VIEW</h6>
       <h2>Get clouser View& <br>Differnt Feeling</h2>
-      <img src="../Assetes/Screenshot 2025-08-03 192656.png" class="w-50 h-100 mt-4" alt="img"></img>
+      <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
     </div>
-   </div>
-
-  <!-- <div class="c-btn">
-     <button>
-    32
-   </button>
-   <button>
-    56
-   </button>
-   <button>
-    87
-   </button>
+    </div>
   </div>
-
-
-   </div> -->
-</section>
-<section>
-  <div class="c-btn">
-     <button>
-    32
-   </button>
-   <button>
-    56
-   </button>
-   <button>
-    87
-   </button>
+</div>  
+<div class="container">
+  <div class="row g-5">
+    <div class="col-4">
+      <div class="c-btn"><h3>34</h3><h4 class="text-dark fw-bold pe-2">Building<br>Finished</h4></div>
+      <div class="circle"> </div>
+    </div>
+    <div class="col-4 ">
+      <div class="c-btn"><h3>12 </h3><h4 class="text-dark fw-bold pe-4">Year<br>Experince</h4></div>
+      <div class="circle"> </div>
+    </div>
+    <div class="col-4">
+      <div class="c-btn"><h3>24 </h3><h4 class="text-dark fw-bold">Awards<br>Won</h4></div>
+      <div class="circle"> </div>
+    </div>
   </div>
-
-
-   </div>
+ </div>
 </section>
+
+<section class="border-1 shadow" style="background-color: rgb(250, 249, 248);">
+  <div class="conntainer p-5 pt-5">
+  <div class="row g-5 p-5  align-items-end">
+    <div class="col-6 ">
+      <p class="fw-bold text-start" style="color: #f16413;">| BEST DEAL</p>
+      <h2 class="text-start fw-bold">Find Your Best Deal <br>Right Now</h2>
+    </div>
+    <div class="col-2">
+       <div class="p-btn" style="color: aliceblue;background-color: rgb(249, 109, 8);">Appartment
+       </div>
+    </div>
+    <div class="col-2">
+      <div class="p-btn">
+        Villa House
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="p-btn">
+        Penthouse
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-4 p-2">
+       <div class="container p-4 border-1 shadow">
+        <div class="row p-2">
+          <div class="col-6">
+          <p class="fs-6 text-secondary">Total Flat Space</p>
+          </div>
+          <div class="col-6">
+           <h6 class="fw-bold fs-4">180 m2</h6>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-6">
+          <p class="fs-6 text-secondary">Floor Number</p>
+          </div>
+          <div class="col-6">
+           <h6 class="fw-bold fs-4">26th</h6>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-6">
+          <p class="fs-6 text-secondary">Number of Rooms</p>
+          </div>
+          <div class="col-6">
+           <h6 class="fw-bold fs-4">4</h6>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-6">
+          <p class="fs-6 text-secondary">Parking Avalible</p>
+          </div>
+          <div class="col-6">
+           <h6 class="fw-bold fs-4">yes</h6>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-6">
+          <p class="fs-6 text-secondary">Payment Process</p>
+          </div>
+          <div class="col-6">
+           <h6 class="fw-bold fs-4">Bank</h6>
+          </div>
+        </div>
+       </div> 
+      </div>
+      <div class="col-4 p-2">
+        <img src="../Assetes/property-05.jpg" style="height: 100%;">
+      </div>
+      <div class="col-4 p-2">
+         <div class="container">
+          <div class="row text-start">
+            <div class="col-12">
+              <h5>Extra Info About Property</h5>
+            </div>
+          </div>
+          <div class="row text-start">
+            <div class="col-12">
+              <p style="color: gray;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facere magnam mollitia eos amet quisquam minima commodi, fuga porro optio sapiente deserunt hic odit, accusantium nesciunt impedit eligendi aliquam tempora?
+              </p>
+            </div>
+          </div>
+          <div class="row text-start">
+            <div class="col-12">
+              <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, omnis, sapiente ex perspiciatis placeat, ullam sint incidunt sit aliquam laboriosam praesentium natus id expedita neque. Obcaecati sunt voluptatem dicta nobis.</p>
+            </div>
+          </div>
+          <div class="row text-start">
+            <div class="col-12">
+              <button class="schedule-btn">
+                <div class="sd-btn ">
+                  <i class="fa-solid fa-calendar "></i></div>
+                    <b class="me-1">Schedule visit</b>
+                </button>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</section>
+<div class="container">
+  <div class="row ">
+    <div class="col-12 p-4 text-center">
+      <h5 style="color: #f16413;font-weight: bold;margin: 10px; text-center">| PROPERTIES</h5>
+      <h2 class="fw-bold m-3 fs-1">We Provide the Best <br> Property Like You</h2>
+    </div>
+  </div>
+</div>
+
+<!-- properties -->
+ <div class="container">
+    <div class="row p-3">
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-04.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-05.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-06.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        <div class="property-card">
+          <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+</div>
+ 
+<div>
+  <img src="../Assetes/contact-bg.jpg" alt="" width="100%">
+</div>
 
   <script src="../Assetes/Bootstrap.js"></script>
 </body>

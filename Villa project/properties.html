@@ -10,8 +10,11 @@
     <title>VILLAS</title>
 </head>
 <body style="overflow-x: hidden;">
-    
-    <div class="d-flex border-bottom me-5 p-1 sub-header">
+ <div class="d-flex border-bottom me-5 p-1 sub-header">
+    <div class="container">
+        <div class="row d-none d-md-flex">
+            <div class="col-12 justify-content-center align-items-center">
+                <div class="d-flex me-5 p-1 sub-header">
             <div class="d-flex ">
             <ul class="d-flex justify-content-center align-items-center gap-1 list-unstyled">
                 <i class="fa-solid fa-envelope c-danger"></i>
@@ -22,80 +25,490 @@
         </div>
         <div class="heading d-inline justify-content-between align-items-center  ms-auto gap-3">
             <ul class="p-1">
-                <i class="fa-brands fa-facebook fa-2xl "></i>
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-                <i class="fa-brands fa-twitter fa-2xl"></i>
-                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-brands fa-facebook fa-2xl p-2 "></i>
+                <i class="fa-brands fa-instagram fa-2xl p-2"></i>
+                <i class="fa-brands fa-twitter fa-2xl p-2"></i>
+                <i class="fa-brands fa-linkedin fa-2xl "></i>
             </ul>                   
         </div>
     </div>
-<header>
-<div class="d-flex justify-content-between align-items-center p-2 head">
-   <nav class="d-flex justify-content-between align-items-center w-100 main-nav">
-     <h2 class="main-heading">VILLA</h2>
-   <ul class="d-flex justify-content-center align-items-center gap-3 p-3 list-unstyled nav">
-    <li><a href="home.html" id="orangehome">Home</a></li>
-    <li><a href="properties.html" target="_parent" class=" active h-nav">Properties</a></li>
-    <li><a href="proprty_details.html" class="h-nav">Property Details</a></li>
-    <li><a href="contact_us.html" class="h-nav">Contact Us</a></li>
-    <li>
-        <button class="schedule-btn">
-            <div class="sd-btn"><i class="fa-solid fa-calendar "></i></div>
-            <b>Schedule visit</b>
-        </button>
-    </li>
-   </ul>
-   </nav>
-</div>
-</header>
+</div>  
+ </div>
+        </div>
+    </div> 
+ <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center p-2 head">
+                    <nav class="d-flex justify-content-between align-items-center w-100 main-nav">
+                        <h2 class="main-heading">VILLA</h2>
+                        <ul class="d-flex justify-content-center align-items-center gap-3 p-3 list-unstyled nav">
+                            <li><a href="home.html" id="orangehome">Home</a></li>
+                            <li><a href="properties.html" target="_parent" class=" active h-nav">Properties</a></li>
+                            <li><a href="proprty_details.html" class="h-nav">Property Details</a></li>
+                            <li><a href="contact_us.html" class="h-nav">Contact Us</a></li>
+                            <li>
+                                <button class="schedule-btn">
+                                    <div class="sd-btn "><i class="fa-solid fa-calendar "></i></div>
+                                    <b class="me-1">Schedule visit</b>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
 
 <!-- properties banner section -->
 
-<img src="../Assetes/page-heading-bg.jpg" alt="banner" >
-<div class="middle-caption m-5">
-    <span>
-         <p>HOME</p>
-         <p>/PROPERTIES</p>
-    </span> 
-    <h2 class="p-h2">PROPERTIES</h2>     
-</div>
+<img src="../Assetes/page-heading-bg.jpg" alt="banner" style="width: 100%;">
+  <div class="container"style="margin-top: -50px;margin: right -25px;">
+    <div class="row">
+      <div class="col-12">
+        <div class="middle-caption m-5 d-none d-md-flex">
+      <h5>HOME/ PROPERTIES</h5> 
+      <h2 class="p-h2 text-center">PROPERTIES</h2>     
+     </div>     
+      </div>
+    </div>
+  </div>
 
+    
 <!-- section for cards -->
 
-<section class="container p-1 m-5 justify-content-center align-items-center">
-    <div class="container1 d-flex gap-1 align-items-center">
+<!-- <section class="container ps-3 p-1 m-5 justify-content-center align-items-center">
+    <div class="container1 d-flex gap-2 text-center align-items-center">
         <button type="button" id="special">Show All</button>
         <button type="button">Aparment</button>
         <button type="button">Villa House</button>
         <button type="button">Pent House</button>
     </div>
     
-<div class="row">
-    <div class="col-4">
-       <div class="card" style="max-width: 350px;">
-    <img src="../Assetes/property-01.jpg" class="card-img-top rounded-top-4" alt="Luxury Villa">
-    <div class="card-body">
-      <div class="d-flex  mb-2">
-        <span class="badge badge-custom bg-dark">Luxury Villa</span>
-        <span class="card-price">$1.180.000</span>
+ <div class="row g-5 mt-3">
+    <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
       </div>
-      <h5 class="card-title fw-bold">54 New Street Florida, OR 27001</h5>
+    </div>
 
-      <div class="row text-muted property-details my-3">
-        <div class="col-6">Bedrooms: <span>6</span></div>
-        <div class="col-6">Bathrooms:<span>5</span></div>
-       
+     <-- 2 -->
+     <!-- <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+<div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-04.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+     
+      <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-05.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+     
+      <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-06.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="property-card">
+        <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <span class="property-label">Luxury Villa</span>
+          <span class="property-price">$2,264,000</span>
+        </div>
+        <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+        <div class="property-details border-bottom p-2 pb-3">
+          Bedrooms: <span>8</span> 
+          Bathrooms: <span>8</span><br>
+          Area: <span>545m</span> 
+          Floor: <span>3</span> 
+          Parking: <span>6 spots</span>
+        </div>
+        <div class="mt-3 text-center">
+          <button class="property-btn">Schedule a visit</button>
+        </div>
+      </div>
+    </div> 
+   </div>
+    
+</section>  -->
+
+<div class="container">
+  <div class="row p-3">
+    <div class="col-12">
+      <div class="container1 d-flex gap-2 text-center align-items-center">
+        <button type="button" id="special">Show All</button>
+        <button type="button">Aparment</button>
+        <button type="button">Villa House</button>
+        <button type="button">Pent House</button>
+     </div>
+    </div>
+  </div>  
+    <div class="row">
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
       </div>
 
-      <div class="d-grid">
-        <button class="btn btn-custom p-2">Schedule a visit</button>
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-04.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
+
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-05.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-06.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-01.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-02.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="property-card">
+          <img src="../Assetes/property-03.jpg" alt="Property Image" class="property-img">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="property-label">Luxury Villa</span>
+            <span class="property-price">$2,264,000</span>
+          </div>
+          <h6 class="mt-2 mb-1 fw-bold">18 Old Street Miami, OR 97219</h6>
+          <div class="property-details border-bottom p-2 pb-3">
+            Bedrooms: <span>8</span> 
+            Bathrooms: <span>8</span><br>
+            Area: <span>545m</span> 
+            Floor: <span>3</span> 
+            Parking: <span>6 spots</span>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="property-btn">Schedule a visit</button>
+          </div>
+        </div>
+      </div>
 </div>
-</section>
 
-        <script src="../Assetes/Bootstrap.js"></script>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center gap-4">
+    <!-- <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li> -->
+    <li class="page-item border rounded-circle bg-dark text-white pagn"><a class="page-link border rounded-circle bg-dark text-white pagn" href="#">1</a></li>
+    <li class="page-item border rounded-circle bg-dark text-white pagn"><a class="page-link border rounded-circle bg-dark text-white pagn" href="#">2</a></li>
+    <li class="page-item border rounded-circle bg-dark text-white pagn"><a class="page-link border rounded-circle bg-dark text-white pagn" href="#">3</a></li>
+    <li class="page-item border rounded-circle bg-dark text-white pagn">
+      <a class="page-link border rounded-circle bg-dark text-white pagn" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+  </nav>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="text-center bg-dark text-light">
+   CopyRight &copy;
+</footer> 
+
+
+  <script src="../Assetes/Bootstrap.js"></script>
 </body>
 </html>
